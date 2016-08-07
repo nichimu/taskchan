@@ -21,7 +21,7 @@
     "mongoose":"~4.5.8"
   },
   "engines": {
-    "node": "0.12.X",
+    "node": "4.1.X",
     "npm": "2.15.X"
   }
 }
