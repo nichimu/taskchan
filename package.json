@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "main":"app.js",
   "private": true,
+  "engines": {
+    "node": "0.12.X",
+    "npm": "2.11.X"
+  },
   "scripts": {
     "start": "node app.js"
   },
@@ -19,9 +23,5 @@
     "express-session":"~1.14.0",
     "flash":"~2.3.6",
     "mongoose":"~4.5.8"
-  },
-  "engines": {
-    "node": "0.12.X",
-    "npm": "2.11.X"
   }
 }
