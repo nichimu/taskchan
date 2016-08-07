@@ -14,7 +14,7 @@ var users = require('./routes/users');
 
 var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
-mongoose.connect('process.env.MONGOLAB_URI');
+mongoose.connect('mongodb://heroku_ck2w8hg5:uihtadld2qkllqjo7lafl6gds3@ds145415.mlab.com:45415/heroku_ck2w8hg5');
 
 var port = process.env.PORT || 4000;
 
