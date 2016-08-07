@@ -4,8 +4,8 @@
   "main":"app.js",
   "private": true,
   "engines": {
-    "node": "4.X",
-    "npm": "2.15.X"
+    "node": "0.12.X",
+    "npm": "2.11.X"
   },
   "scripts": {
     "start": "node app.js"
@@ -21,7 +21,7 @@
     "connect-flash":"~0.1.1",
     "csurf":"~1.9.0",
     "express-session":"~1.14.0",
-    "flash":"~2.3.6",
+    "flash":"~1.1.0",
     "mongoose":"~4.5.8"
   }
 }
