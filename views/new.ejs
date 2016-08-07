@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+
+<h1><%= title %></h1>
+
+<form action="/create" method="post">
+  <input type="hidden" name="_csrf" value="<%= csrf %>">
+  <p>
+    <input type="text" name="task" value="" size="60">
+  </p>
+  <p><button type="submit">作成</button></p>
+</form>
+<p><a href="/">一覧に戻る</a></p>
+
+<% include partials/footer %>
