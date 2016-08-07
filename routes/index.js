@@ -46,7 +46,7 @@ router.get("/edit/:id", function(req, res, next){
   Post.findById(req.params.id, function(err, post){
     if( err ) return next();
     res.render("edit", {
-      title: "記事の編集 | SampleApp",
+      title: "タスク編集 | TodoApp",
       csrf: req.csrfToken(),
       post: post,
       errors: req.flash("errors").shift()
