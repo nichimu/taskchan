@@ -14,7 +14,7 @@ var users = require('./routes/users');
 
 var mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/data/db');
+mongoose.connect('process.env.MONGOLAB_URI');
 
 var port = process.env.PORT || 4000;
 
